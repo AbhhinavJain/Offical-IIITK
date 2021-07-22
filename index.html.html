@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <title>www.IIITKota.com</title>
+</head>
+
+<body>
+
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+          stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+          viewBox="0 0 24 24"> -->
+        <img class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+          src="https://iiitkota.ac.in/static/media/logo.b831a251.png" alt="error" width="50" height="50">
+        <!-- <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path> -->
+        </svg>
+        <span class="ml-3 text-xl">Indian Institute of Information Technology,Kota</span>
+      </a>
+      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+        <a href="/" class="mr-5 hover:text-gray-900"><a href="http://www.iiitkota.ac.in/" target="_blank">Home </a></a>
+        <a href="/" class="mr-5 hover:text-gray-900"><a href="http://www.iiitkota.ac.in/btech"
+            target="_blank">Admission</a> </a>
+        <a href="/" class="mr-5 hover:text-gray-900"><a href="http://www.iiitkota.ac.in/placementstats"
+            target="_blank">Placement</a></a>
+        <a href="/" class="mr-5 hover:text-gray-900"> <a href="http://www.iiitkota.ac.in/faculty"
+            target="_blank">Faculty</a> </a>
+      </nav>
+      <button
+        class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"><a
+          href="https://google.com" target="_blank">Back to Google </a>
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+
+  <hr>
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Our Engineers
+          <br class="hidden lg:inline-block">with great Experience
+        </h1>
+        <p class="mb-8 leading-relaxed">Get Relax.</p>
+        <div class="flex justify-center">
+          <button
+            class="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg"><a
+              href="http://www.iiitkota.ac.in/" target="_blank">Get Started</a> </button>
+          <button
+            class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"><a
+              href="http://www.iiitkota.ac.in/reach" target="_blank"> Contact Us</a></button>
+        </div>
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img class="object-cover object-center rounded" alt="hero"
+          src="data:image/jpeg;base64,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"
+          width="1000" height="1000">
+      </div>
+    </div>
+  </section>
+  <hr>
+
+
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <div class="lg:w-2/3 mx-auto">
+        <div class="flex flex-wrap w-full bg-gray-100 py-32 px-10 relative mb-4">
+          <img alt="gallery" class="w-full object-cover h-full object-center block opacity-25 absolute inset-0"
+            src="download (1).jpeg">
+          <div class="text-center relative z-10 w-full">
+            <h2 class="text-2xl text-gray-900 font-medium title-font mb-2">Events</h2>
+            <p class="leading-relaxed">Skateboard +1 mustache fixie paleo lumbersexual.</p>
+            <a class="mt-3 text-yellow-500 inline-flex items-center">Learn More
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-wrap -mx-2">
+          <div class="px-2 w-1/2">
+            <div class="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
+              <img alt="gallery" class="w-full object-cover h-full object-center block opacity-25 absolute inset-0"
+                src="faculty.jpeg">
+              <div class="text-center relative z-10 w-full">
+                <h2 class="text-xl text-gray-900 font-medium title-font mb-2">Events</h2>
+                <p class="leading-relaxed">Skateboard +1 mustache fixie paleo lumbersexual.</p>
+                <a class="mt-3 text-yellow-500 inline-flex items-center">Learn More
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="px-2 w-1/2">
+            <div class="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
+              <img alt="gallery" class="w-full object-cover h-full object-center block opacity-25 absolute inset-0"
+                src="download.jpeg">
+              <div class="text-center relative z-10 w-full">
+                <h2 class="text-xl text-gray-900 font-medium title-font mb-2">Events</h2>
+                <p class="leading-relaxed">Skateboard +1 mustache fixie paleo lumbersexual.</p>
+                <a class="mt-3 text-yellow-500 inline-flex items-center">Learn More
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">About Institute</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base"><big>Indian Institute of Information Technology Kota
+            (IIIT,
+            Kota) is one of the Indian Institutes of Information Technology proposed to be located at Ranpur near Kota,
+            Rajasthan. The academic session of IIIT Kota started from its temporary campus at Malaviya National
+            Institute
+            of Technology Jaipur from year 2013.[1] IIIT Kota is a joint venture of the Ministry of Human Resource
+            Development, Government of India with Industries in Public-Private Partnership model. First batch of IIIT
+            Kota
+            has graduated in the year 2017. The Subjects offered are totally different from the NITs.</big> </p>
+      </div>
+      <div class="flex flex-wrap -m-4 text-center">
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="text-yellow-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M8 17l4 4 4-4m-4-5v9"></path>
+              <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
+            </svg>
+            <h2 class="title-font font-medium text-3xl text-gray-900">2.7K</h2>
+            <p class="leading-relaxed">Downloads</p>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="text-yellow-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+            </svg>
+            <h2 class="title-font font-medium text-3xl text-gray-900">1.3K</h2>
+            <p class="leading-relaxed">Users</p>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="text-yellow-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M3 18v-6a9 9 0 0118 0v6"></path>
+              <path
+                d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z">
+              </path>
+            </svg>
+            <h2 class="title-font font-medium text-3xl text-gray-900">74</h2>
+            <p class="leading-relaxed">Files</p>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="text-yellow-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
+            <p class="leading-relaxed">Places</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+
+
+
+
+
+  <section class="text-gray-600 body-font relative">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base"></p>
+      </div>
+      <div class="lg:w-1/2 md:w-2/3 mx-auto">
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+              <input type="text" id="name" name="name"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-yellow-500 focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+          </div>
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+              <input type="email" id="email" name="email"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-yellow-500 focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <div class="relative">
+              <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+              <textarea id="message" name="message"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-yellow-500 focus:bg-white focus:ring-2 focus:ring-yellow-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <button
+              class="flex mx-auto text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg">Submit</button>
+          </div>
+          <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+            <a class="text-yellow-500">office@iiitkota.ac.in</a>
+            <p class="leading-normal my-5"><big>A D D R E S S--</big>
+              <br> <big>IIIT Kota Office,
+
+                2nd Floor, Prabha Bhawan, MNIT Jaipur Campus,
+
+                JLN Marg, Malaviya Nagar,
+
+                Jaipur - 302017, Rajasthan
+
+                Phone: 0141-2715071</big>
+            </p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                  viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"> </path>
+                </svg>
+              </a>
+              <a class="ml-4 text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                  </path>
+                </svg>
+              </a>
+              <a class="ml-4 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </a>
+              <a class="ml-4 text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                  </path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+</body>
+
+</html>
